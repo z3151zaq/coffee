@@ -5,8 +5,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddScoped<ICoffeeService, CoffeeService>();
 builder.Services.AddSingleton<IDateProvider, SystemDateProvider>();
 builder.Services.AddSingleton<CoffeeCounterProvider, CoffeeCounterProvider>();
+builder.Services.AddHttpClient();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

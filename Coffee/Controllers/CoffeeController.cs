@@ -6,21 +6,23 @@ namespace coffee.Controllers;
 
 [ApiController]
 [Route("brew-coffee")]
-public class CoffeeMachineController : ControllerBase
+public class CoffeeController : ControllerBase
 {
-    private readonly ILogger<CoffeeMachineController> _logger;
+    private readonly ILogger<CoffeeController> _logger;
     private readonly IDateProvider _dateProvider;
     private readonly CoffeeCounterProvider _counter;
+    private readonly ICoffeeService _coffeeService;
     
-    public CoffeeMachineController(ILogger<CoffeeMachineController> logger,  IDateProvider dateProvider, CoffeeCounterProvider coffeeCounterProvider)
+    public CoffeeController(ILogger<CoffeeController> logger,  IDateProvider dateProvider, CoffeeCounterProvider coffeeCounterProvider, ICoffeeService coffeeService)
     {
         _logger = logger;
         _dateProvider = dateProvider;
         _counter = coffeeCounterProvider;
+        _coffeeService = coffeeService;
     }
 
     [HttpGet]
-    public IActionResult Get()
+    public async Task<IActionResult> Get()
     {   
         DateTime today = _dateProvider.Today;
         if (today.Month == 4 && today.Day == 1)
@@ -36,11 +38,7 @@ public class CoffeeMachineController : ControllerBase
         } 
         else
         {
-            var response = new CoffeeDTO()
-            {
-                prepared = DateTimeOffset.Now.ToString("O"),
-                message = "Your piping hot coffee is ready",
-            };
+            var response = await _coffeeService.GetCoffee();
             return Ok(response);
         }
     }
