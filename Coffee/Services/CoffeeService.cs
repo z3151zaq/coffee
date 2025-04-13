@@ -16,18 +16,30 @@ public class CoffeeService: ICoffeeService
 
     public async Task<CoffeeDTO> GetCoffee()
     {
-        var response = 
-            await _httpClient.GetAsync($"https://api.openweathermap.org/data/2.5/weather?units=metric&lat={36.85}&lon={174.76}&appid={_configuration["WeatherApiKey"]}");
-        response.EnsureSuccessStatusCode();
-        var json = await response.Content.ReadAsStringAsync();
-        var weather = JsonSerializer.Deserialize<WeatherResponse>(json, new JsonSerializerOptions
+        try{
+            var response = 
+                await _httpClient.GetAsync($"https://api.openweathermap.org/data/2.5/weather?units=metric&lat={36.85}&lon={174.76}&appid={_configuration["WeatherApiKey"]}");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            var weather = JsonSerializer.Deserialize<WeatherResponse>(json, new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            });
+            return new CoffeeDTO()
+            {
+                prepared = DateTimeOffset.Now.ToString("O"),
+                message = weather.Main.Temp > 30 ? "Your refreshing iced coffee is ready" : "Your piping hot coffee is ready",
+            };
+        }
+        catch (Exception)
         {
-            PropertyNameCaseInsensitive = true
-        });
-        return new CoffeeDTO()
-        {
-            prepared = DateTimeOffset.Now.ToString("O"),
-            message = weather.Main.Temp > 30 ? "Your refreshing iced coffee is ready" : "Your piping hot coffee is ready",
-        };
+            return new CoffeeDTO()
+            {
+                prepared = DateTimeOffset.Now.ToString("O"),
+                message = "Your piping hot coffee is ready",
+            };
+        }
     }
+    
+
 }

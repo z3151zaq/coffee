@@ -12,47 +12,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="876dbe0d-93fe-4e55-bc86-777baf9e0642" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Coffee.Tests/CoffeeServiceTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coffee/Data/WeatherResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coffee/Interfaces/ICoffeeService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coffee/Services/CoffeeService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.coffee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.coffee/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/CoffeeControllerTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/bin/Debug/net8.0/Coffee.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/bin/Debug/net8.0/Coffee.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/bin/Debug/net8.0/Coffee.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/bin/Debug/net8.0/Coffee.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/bin/Debug/net8.0/Coffee.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/bin/Debug/net8.0/Coffee.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/bin/Debug/net8.0/Coffee.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/bin/Debug/net8.0/Coffee.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/bin/Debug/net8.0/CoverletSourceRootsMapping_Coffee.Tests" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/bin/Debug/net8.0/CoverletSourceRootsMapping_Coffee.Tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/bin/Debug/net8.0/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/Coffee.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/Coffee.Tests.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/Coffee.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/Coffee.Tests.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/Coffee.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/Coffee.Tests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/Coffee.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/Coffee.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/Coffee.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/Coffee.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/Coffee.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/Coffee.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/Coffee.Tests.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/Coffee.Tests.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/Coffee.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/Coffee.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/ref/Coffee.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/ref/Coffee.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/refint/Coffee.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee.Tests/obj/Debug/net8.0/refint/Coffee.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/Controllers/CoffeeMachineController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/Controllers/CoffeeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/Data/IDateProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/Interfaces/IDateProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/bin/Debug/net8.0/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/bin/Debug/net8.0/coffee.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/bin/Debug/net8.0/coffee.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/bin/Debug/net8.0/coffee.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/bin/Debug/net8.0/coffee.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/coffee.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/coffee.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/coffee.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/coffee.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/coffee.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/coffee.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/coffee.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/coffee.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/coffee.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/coffee.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/coffee.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/coffee.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/coffee.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/coffee.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/coffee.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/coffee.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/ref/coffee.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/ref/coffee.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/refint/coffee.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee/obj/Debug/net8.0/refint/coffee.dll" afterDir="false" />
-    </list>
+    <list default="true" id="876dbe0d-93fe-4e55-bc86-777baf9e0642" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,7 +129,7 @@
       <workItem from="1744071753415" duration="5000" />
       <workItem from="1744513232193" duration="467000" />
       <workItem from="1744514199474" duration="8634000" />
-      <workItem from="1744522853537" duration="5884000" />
+      <workItem from="1744522853537" duration="6259000" />
     </task>
     <servers />
   </component>
